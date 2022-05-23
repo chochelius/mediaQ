@@ -10,6 +10,9 @@ header {
     height: max-content;
 }
 
+button {
+    justify-self: center;
+}
 .title {
     justify-self: left;
 }
