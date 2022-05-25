@@ -1,6 +1,6 @@
 header {
     display: flex;
-    grid-area: 'head';
+    grid-area: head;
     background-color: #1976d2;
     flex-direction: row;
     color: white;
@@ -8,6 +8,11 @@ header {
     text-align: right;
     padding: 5% 10%;
     height: max-content;
+    cursor: pointer;
+}
+
+.point {
+    cursor: pointer;
 }
 
 button {
@@ -40,7 +45,7 @@ display: none;
 
 nav {
     display: grid;
-    grid-area: 'nav';
+    grid-area: nav;
     background-color: #bdbdbd;
     text-align: center;
     height: max-content;
@@ -48,17 +53,18 @@ nav {
 
 section {
     display: grid;
-    grid-area: 'main';
+    grid-area: main;
     background-color: white;
 }
 
 footer {
-    grid-area: 'foot';
+    grid-area: foot;
     background-color: #1976d2;
     text-align: center;
     align-items: center;
     flex-direction: column;
     color: white;
+    cursor: pointer;
 }
 
 .icons {
