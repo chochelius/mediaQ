@@ -66,16 +66,17 @@ footer {
     display: flex;
     background-color: #1976d2;
     text-align: center;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
     color: white;
     cursor: pointer;
+    text-justify: distribute;
 }
 
 .icons {
     display: flex;
     padding-top: 10%;
-    padding-left: 40%;
+    padding-left: 5%;
 }
 
 .search {
@@ -137,6 +138,7 @@ footer {
         display: flex;
         flex-direction: column;
         overflow: scroll;
+        height: 60%;
     }
     
     .card {
